@@ -1,0 +1,132 @@
+html {
+  height: 1150px;
+  width: 100%;
+}
+
+/*Background color*/
+body {
+  background-color: #f0f7f1;
+}
+
+/*Nav bar*/
+.header-buttons {
+  display:flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 35px;
+  margin-left: 220px;
+}
+
+/*Nav bar hover*/
+.header-button:hover {
+  border-radius: 20px;
+  background-color: #dae3db;
+  cursor: pointer;
+  
+}
+
+.total-header {
+  display: flex;
+}
+
+.header-button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f7f1;;
+  color: #60463b;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  padding: 20px;
+  
+}
+
+.logo {
+  height: 85px;
+  width: 85px;
+  margin-left: 40px;
+  margin-top: 27px;
+  display: flex;
+}
+
+.home-title {
+  margin-top: 150px;
+  color: #40916c;
+  font-size: 100px;
+  text-shadow: 3px 3px #2d6a4f;
+  font-family: 'Jakarta Display', sans-serif; 
+  font-weight: bold;
+}
+
+.home-statement {
+  font-size: 200%;
+  color: #2d6a4f;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* book image*/
+.home-img {
+  width: 485px;
+  height: 455px;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-top: 130px;
+  border-radius: 50%;
+  border: 5px solid #DAEAE2;
+  
+}
+
+.mission-statement {
+    height: 300px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+   border: 2.5px solid #767C7D;
+    border-radius: 30px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 100px;
+    margin-right: 220px;
+    margin-left: 220px;
+    box-shadow: 7px 7px 6px 6px #DAEAE2;
+    text-align: center;
+  background-color: white;
+  }
+
+.mission {
+  font-size: 40px;
+  color: #60463b;
+}
+
+.mission-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 200%;
+  color: #60463b;
+}
+
+.home-page-button {
+  background-color: #40916c;
+  color: white;
+  border-radius: 13px;
+  padding: 20px;
+  font-family: 'Jakarta Display', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+ }
+
+.home-page-button:hover {
+  background-color: #2d6a4f;
+  cursor: pointer;
+}
+/* header and sub header and image*/
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+  
+}
+
+

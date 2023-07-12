@@ -1,0 +1,153 @@
+html {
+  height: 1400px;
+  width: 100%;
+}
+
+/*Background color*/
+body {
+  background-color: #f0f7f1;
+}
+
+/*Nav bar*/
+.header-buttons {
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin-top: 35px;
+  margin-left: 220px;
+}
+
+/*Nav bar hover*/
+.header-button:hover {
+  border-radius: 20px;
+  background-color: #dae3db;
+  cursor: pointer;
+  
+}
+
+.header-button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f7f1;;
+  color: #60463b;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.logo {
+  height: 85px;
+  width: 85px;
+  margin-left: 40px;
+  margin-top: 27px;
+  display: flex;
+}
+
+.total-header {
+  display: flex;
+}
+
+
+.club-title {
+  margin-top: 50px;
+  color: #40916c;
+  font-size: 50px;
+  font-family: 'Jakarta Display', sans-serif; 
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.ad-statement {
+    height: 400px;
+    width: 900px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+   border: 2.5px solid #767C7D;
+    border-radius: 30px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+   margin-left: 100px;
+  margin-right: 30px;
+    box-shadow: 7px 7px 6px 6px #DAEAE2;
+    text-align: center;
+  background-color: white;
+  }
+
+.ad-title {
+  font-size: 40px;
+  color: #60463b;
+}
+
+.ad-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 200%;
+  color: #60463b;
+}
+
+.prep-statement {
+    height: 400px;
+    width: 900px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+   border: 2.5px solid #767C7D;
+    border-radius: 30px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 30px;
+    box-shadow: 7px 7px 6px 6px #DAEAE2;
+    text-align: center;
+  background-color: white;
+  }
+
+.prep-title {
+  font-size: 40px;
+  color: #60463b;
+}
+
+.prep-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 200%;
+  color: #60463b;
+}
+
+.content-statement {
+    height: 700px;
+    width: 1100px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+   border: 2.5px solid #767C7D;
+    border-radius: 30px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 310px;
+    box-shadow: 7px 7px 6px 6px #DAEAE2;
+    text-align: center;
+  background-color: white;
+  }
+
+.content-title {
+  font-size: 40px;
+  color: #60463b;
+}
+
+.content-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 200%;
+  color: #60463b;
+}
+
+.ad-prep {
+  display: flex;
+  justify-content: space-around;
+}

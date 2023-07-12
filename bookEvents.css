@@ -1,0 +1,153 @@
+
+html {
+  height: 2000;
+  width: 100%;
+}
+
+/*Background color*/
+body {
+  background-color: #f0f7f1;
+}
+
+/*Nav bar*/
+.header-buttons {
+  display:flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-top: 35px;
+  margin-left: 220px;
+}
+
+/*Nav bar hover*/
+.header-button:hover {
+  border-radius: 20px;
+  background-color: #dae3db;
+  cursor: pointer;
+  
+}
+
+.header-button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f7f1;;
+  color: #60463b;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  padding: 20px;
+}
+.logo {
+  height: 85px;
+  width: 85px;
+  margin-left: 40px;
+  margin-top: 27px;
+  display: flex;
+}
+
+.total-header {
+  display: flex;
+}
+
+.events-title {
+  margin-top: 50px;
+  color: #40916c;
+  font-size: 50px;
+  font-family: 'Jakarta Display', sans-serif; 
+  text-align: center;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.texas-title {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif; 
+  color: #60463b;
+}
+
+.texas-events {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.texas-box p{
+ width: 400px;
+  /*height: 200px;*/
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  z-index:-1;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.texas-img {
+width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 20px;  
+}
+
+texas-box .texas-img:hover {
+  opacity: 0%;
+  z-index: -1;
+  width: 400px;
+  height: 200px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.OOS-title {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif; 
+  color: #60463b;
+}
+
+.OSS-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.OSS-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.genre-img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.OSS-box p{
+  width: 400px;
+  /*height: 200px;*/
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  z-index:-1;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+
+img:hover{
+  opacity: 0%;
+  z-index: -1;
+  width: 400px;
+  height: 200px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.text {
+text-align: center;
+}

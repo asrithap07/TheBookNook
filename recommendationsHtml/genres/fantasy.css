@@ -1,0 +1,89 @@
+html {
+  height: 1100px;
+  width: 100%;
+}
+
+/*Background color*/
+body {
+  background-color: #f0f7f1;
+}
+
+/*Nav bar*/
+.header-buttons {
+  display:flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+
+/*Nav bar hover*/
+.header-button:hover {
+  border-radius: 20px;
+  background-color: #dae3db;
+  cursor: pointer;
+  
+}
+
+/*header*/
+.header-button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f7f1;;
+  color: #60463b;
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 23px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+
+.image {
+  height: 200px;
+  width: 137px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  margin-right: 35px;
+  
+}
+
+.book-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-family: 'DM Sans', sans-serif;
+  margin-right: 250px;
+  margin-left: 20px;
+}
+
+.title {
+  font-family: 'DM Sans', sans-serif;
+  color: #40916c;
+  font-size: 170%;
+  margin-bottom: .5%;
+}
+
+hr{
+  border: 2px solid #40916c;
+  height: 2px;
+}
+
+button {
+  background-color: #dfece0;
+  border: 2px solid #40916c;
+  color:#60463b;
+  border-radius: 3px;
+}
+
+h1 {
+  font-family: 'Jakarta Display', sans-serif;
+  color: #40916c;
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  color:#60463b;
+  
+}
